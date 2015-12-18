@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC7396EB1C240B5000BC2B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396EA1C240B5000BC2B93 /* main.m */; };
+		BC7396EE1C240B5000BC2B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396ED1C240B5000BC2B93 /* AppDelegate.m */; };
+		BC7396F11C240B5000BC2B93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396F01C240B5000BC2B93 /* ViewController.m */; };
+		BC7396F41C240B5000BC2B93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7396F21C240B5000BC2B93 /* Main.storyboard */; };
+		BC7396F61C240B5000BC2B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7396F51C240B5000BC2B93 /* Assets.xcassets */; };
+		BC7396F91C240B5000BC2B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7396F71C240B5000BC2B93 /* LaunchScreen.storyboard */; };
+		BC7397041C240B5000BC2B93 /* SHNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397031C240B5000BC2B93 /* SHNetworkDemoTests.m */; };
+		BC7397271C240C8300BC2B93 /* SHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397121C240C8300BC2B93 /* SHBaseRequest.m */; };
+		BC7397281C240C8300BC2B93 /* SHDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397141C240C8300BC2B93 /* SHDownload.m */; };
+		BC7397291C240C8300BC2B93 /* SHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397161C240C8300BC2B93 /* SHRequest.m */; };
+		BC73972A1C240C8300BC2B93 /* SHUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397181C240C8300BC2B93 /* SHUpload.m */; };
+		BC73972E1C240C8300BC2B93 /* SHNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397221C240C8300BC2B93 /* SHNetworkTask.m */; };
+		BC73972F1C240C8300BC2B93 /* SHUploadPostData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397241C240C8300BC2B93 /* SHUploadPostData.m */; };
+		BC7397301C240C8300BC2B93 /* SHNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397261C240C8300BC2B93 /* SHNetwork.m */; };
+		FF5B7B88DF3230891939A5B9 /* libPods-SHNetworkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A95DEA43F7AF1510E724CE /* libPods-SHNetworkDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7397001C240B5000BC2B93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC7396DE1C240B5000BC2B93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7396E51C240B5000BC2B93;
+			remoteInfo = SHNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EBF26490FC071FFE3C43524 /* Pods-SHNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHNetworkDemo/Pods-SHNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC7396E61C240B5000BC2B93 /* SHNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7396EA1C240B5000BC2B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7396EC1C240B5000BC2B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC7396ED1C240B5000BC2B93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC7396EF1C240B5000BC2B93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC7396F01C240B5000BC2B93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC7396F31C240B5000BC2B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC7396F51C240B5000BC2B93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC7396F81C240B5000BC2B93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC7396FA1C240B5000BC2B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7396FF1C240B5000BC2B93 /* SHNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7397031C240B5000BC2B93 /* SHNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNetworkDemoTests.m; sourceTree = "<group>"; };
+		BC7397051C240B5000BC2B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7397111C240C8300BC2B93 /* SHBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBaseRequest.h; sourceTree = "<group>"; };
+		BC7397121C240C8300BC2B93 /* SHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseRequest.m; sourceTree = "<group>"; };
+		BC7397131C240C8300BC2B93 /* SHDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDownload.h; sourceTree = "<group>"; };
+		BC7397141C240C8300BC2B93 /* SHDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDownload.m; sourceTree = "<group>"; };
+		BC7397151C240C8300BC2B93 /* SHRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRequest.h; sourceTree = "<group>"; };
+		BC7397161C240C8300BC2B93 /* SHRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRequest.m; sourceTree = "<group>"; };
+		BC7397171C240C8300BC2B93 /* SHUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUpload.h; sourceTree = "<group>"; };
+		BC7397181C240C8300BC2B93 /* SHUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUpload.m; sourceTree = "<group>"; };
+		BC7397211C240C8300BC2B93 /* SHNetworkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkTask.h; sourceTree = "<group>"; };
+		BC7397221C240C8300BC2B93 /* SHNetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkTask.m; sourceTree = "<group>"; };
+		BC7397231C240C8300BC2B93 /* SHUploadPostData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUploadPostData.h; sourceTree = "<group>"; };
+		BC7397241C240C8300BC2B93 /* SHUploadPostData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUploadPostData.m; sourceTree = "<group>"; };
+		BC7397251C240C8300BC2B93 /* SHNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetwork.h; sourceTree = "<group>"; };
+		BC7397261C240C8300BC2B93 /* SHNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetwork.m; sourceTree = "<group>"; };
+		BC7397311C24117F00BC2B93 /* SHNetworkDefinition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHNetworkDefinition.h; sourceTree = "<group>"; };
+		F6A95DEA43F7AF1510E724CE /* libPods-SHNetworkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SHNetworkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B95A38DE6C45A75E5D3C92 /* Pods-SHNetworkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNetworkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SHNetworkDemo/Pods-SHNetworkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC7396E31C240B5000BC2B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5B7B88DF3230891939A5B9 /* libPods-SHNetworkDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7396FC1C240B5000BC2B93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41A81478D4329BA234D0F27F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6A95DEA43F7AF1510E724CE /* libPods-SHNetworkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC7396DD1C240B5000BC2B93 = {
+			isa = PBXGroup;
+			children = (
+				BC73970E1C240C8300BC2B93 /* SHNetwork */,
+				BC7396E81C240B5000BC2B93 /* SHNetworkDemo */,
+				BC7397021C240B5000BC2B93 /* SHNetworkDemoTests */,
+				BC7396E71C240B5000BC2B93 /* Products */,
+				EC1AC8FC91BDF475BD59B76A /* Pods */,
+				41A81478D4329BA234D0F27F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC7396E71C240B5000BC2B93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC7396E61C240B5000BC2B93 /* SHNetworkDemo.app */,
+				BC7396FF1C240B5000BC2B93 /* SHNetworkDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC7396E81C240B5000BC2B93 /* SHNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC7396EC1C240B5000BC2B93 /* AppDelegate.h */,
+				BC7396ED1C240B5000BC2B93 /* AppDelegate.m */,
+				BC7396EF1C240B5000BC2B93 /* ViewController.h */,
+				BC7396F01C240B5000BC2B93 /* ViewController.m */,
+				BC7396F21C240B5000BC2B93 /* Main.storyboard */,
+				BC7396F51C240B5000BC2B93 /* Assets.xcassets */,
+				BC7396F71C240B5000BC2B93 /* LaunchScreen.storyboard */,
+				BC7396FA1C240B5000BC2B93 /* Info.plist */,
+				BC7396E91C240B5000BC2B93 /* Supporting Files */,
+			);
+			path = SHNetworkDemo;
+			sourceTree = "<group>";
+		};
+		BC7396E91C240B5000BC2B93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7396EA1C240B5000BC2B93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7397021C240B5000BC2B93 /* SHNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7397031C240B5000BC2B93 /* SHNetworkDemoTests.m */,
+				BC7397051C240B5000BC2B93 /* Info.plist */,
+			);
+			path = SHNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		BC73970E1C240C8300BC2B93 /* SHNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BC7397251C240C8300BC2B93 /* SHNetwork.h */,
+				BC7397261C240C8300BC2B93 /* SHNetwork.m */,
+				BC7397311C24117F00BC2B93 /* SHNetworkDefinition.h */,
+				BC7397101C240C8300BC2B93 /* CRMRequest */,
+				BC7397201C240C8300BC2B93 /* Model */,
+			);
+			name = SHNetwork;
+			path = ../SHNetwork;
+			sourceTree = "<group>";
+		};
+		BC7397101C240C8300BC2B93 /* CRMRequest */ = {
+			isa = PBXGroup;
+			children = (
+				BC7397111C240C8300BC2B93 /* SHBaseRequest.h */,
+				BC7397121C240C8300BC2B93 /* SHBaseRequest.m */,
+				BC7397151C240C8300BC2B93 /* SHRequest.h */,
+				BC7397161C240C8300BC2B93 /* SHRequest.m */,
+				BC7397131C240C8300BC2B93 /* SHDownload.h */,
+				BC7397141C240C8300BC2B93 /* SHDownload.m */,
+				BC7397171C240C8300BC2B93 /* SHUpload.h */,
+				BC7397181C240C8300BC2B93 /* SHUpload.m */,
+			);
+			path = CRMRequest;
+			sourceTree = "<group>";
+		};
+		BC7397201C240C8300BC2B93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BC7397211C240C8300BC2B93 /* SHNetworkTask.h */,
+				BC7397221C240C8300BC2B93 /* SHNetworkTask.m */,
+				BC7397231C240C8300BC2B93 /* SHUploadPostData.h */,
+				BC7397241C240C8300BC2B93 /* SHUploadPostData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC1AC8FC91BDF475BD59B76A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B95A38DE6C45A75E5D3C92 /* Pods-SHNetworkDemo.debug.xcconfig */,
+				0EBF26490FC071FFE3C43524 /* Pods-SHNetworkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC7396E51C240B5000BC2B93 /* SHNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7397081C240B5000BC2B93 /* Build configuration list for PBXNativeTarget "SHNetworkDemo" */;
+			buildPhases = (
+				BC421EF4A43399558E10CB20 /* Check Pods Manifest.lock */,
+				BC7396E21C240B5000BC2B93 /* Sources */,
+				BC7396E31C240B5000BC2B93 /* Frameworks */,
+				BC7396E41C240B5000BC2B93 /* Resources */,
+				0284BD12F61E1596673EB960 /* Embed Pods Frameworks */,
+				4AD746DE1732C65F90FB1B5E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHNetworkDemo;
+			productName = SHNetworkDemo;
+			productReference = BC7396E61C240B5000BC2B93 /* SHNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7396FE1C240B5000BC2B93 /* SHNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC73970B1C240B5000BC2B93 /* Build configuration list for PBXNativeTarget "SHNetworkDemoTests" */;
+			buildPhases = (
+				BC7396FB1C240B5000BC2B93 /* Sources */,
+				BC7396FC1C240B5000BC2B93 /* Frameworks */,
+				BC7396FD1C240B5000BC2B93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7397011C240B5000BC2B93 /* PBXTargetDependency */,
+			);
+			name = SHNetworkDemoTests;
+			productName = SHNetworkDemoTests;
+			productReference = BC7396FF1C240B5000BC2B93 /* SHNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC7396DE1C240B5000BC2B93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Hayden;
+				TargetAttributes = {
+					BC7396E51C240B5000BC2B93 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					BC7396FE1C240B5000BC2B93 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = BC7396E51C240B5000BC2B93;
+					};
+				};
+			};
+			buildConfigurationList = BC7396E11C240B5000BC2B93 /* Build configuration list for PBXProject "SHNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC7396DD1C240B5000BC2B93;
+			productRefGroup = BC7396E71C240B5000BC2B93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC7396E51C240B5000BC2B93 /* SHNetworkDemo */,
+				BC7396FE1C240B5000BC2B93 /* SHNetworkDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC7396E41C240B5000BC2B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7396F91C240B5000BC2B93 /* LaunchScreen.storyboard in Resources */,
+				BC7396F61C240B5000BC2B93 /* Assets.xcassets in Resources */,
+				BC7396F41C240B5000BC2B93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7396FD1C240B5000BC2B93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0284BD12F61E1596673EB960 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHNetworkDemo/Pods-SHNetworkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AD746DE1732C65F90FB1B5E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SHNetworkDemo/Pods-SHNetworkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC421EF4A43399558E10CB20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC7396E21C240B5000BC2B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC73972E1C240C8300BC2B93 /* SHNetworkTask.m in Sources */,
+				BC7397291C240C8300BC2B93 /* SHRequest.m in Sources */,
+				BC7396F11C240B5000BC2B93 /* ViewController.m in Sources */,
+				BC73972F1C240C8300BC2B93 /* SHUploadPostData.m in Sources */,
+				BC73972A1C240C8300BC2B93 /* SHUpload.m in Sources */,
+				BC7397301C240C8300BC2B93 /* SHNetwork.m in Sources */,
+				BC7397271C240C8300BC2B93 /* SHBaseRequest.m in Sources */,
+				BC7397281C240C8300BC2B93 /* SHDownload.m in Sources */,
+				BC7396EE1C240B5000BC2B93 /* AppDelegate.m in Sources */,
+				BC7396EB1C240B5000BC2B93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7396FB1C240B5000BC2B93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7397041C240B5000BC2B93 /* SHNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7397011C240B5000BC2B93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC7396E51C240B5000BC2B93 /* SHNetworkDemo */;
+			targetProxy = BC7397001C240B5000BC2B93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC7396F21C240B5000BC2B93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7396F31C240B5000BC2B93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC7396F71C240B5000BC2B93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7396F81C240B5000BC2B93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC7397061C240B5000BC2B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC7397071C240B5000BC2B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC7397091C240B5000BC2B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8B95A38DE6C45A75E5D3C92 /* Pods-SHNetworkDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumshare.SHNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC73970A1C240B5000BC2B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EBF26490FC071FFE3C43524 /* Pods-SHNetworkDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHNetworkDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumshare.SHNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC73970C1C240B5000BC2B93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SHNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumshare.SHNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHNetworkDemo.app/SHNetworkDemo";
+			};
+			name = Debug;
+		};
+		BC73970D1C240B5000BC2B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SHNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sumshare.SHNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHNetworkDemo.app/SHNetworkDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC7396E11C240B5000BC2B93 /* Build configuration list for PBXProject "SHNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7397061C240B5000BC2B93 /* Debug */,
+				BC7397071C240B5000BC2B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7397081C240B5000BC2B93 /* Build configuration list for PBXNativeTarget "SHNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7397091C240B5000BC2B93 /* Debug */,
+				BC73970A1C240B5000BC2B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC73970B1C240B5000BC2B93 /* Build configuration list for PBXNativeTarget "SHNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC73970C1C240B5000BC2B93 /* Debug */,
+				BC73970D1C240B5000BC2B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC7396DE1C240B5000BC2B93 /* Project object */;
+}
