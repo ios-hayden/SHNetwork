@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "SHNetwork", "SHNetwork/**/*.{h,m}"
-  s.public_header_files = "SHNetwork/SHNetwork.h"
+  s.public_header_files = "SHNetwork/**/*.h"
 
   #s.framework  = "CoreData"
   s.requires_arc = true

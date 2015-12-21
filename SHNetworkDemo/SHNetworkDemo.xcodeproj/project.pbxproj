@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC10B7891C27D2A3003DC709 /* SHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10B7821C27D2A3003DC709 /* SHBaseRequest.m */; };
+		BC10B78A1C27D2A3003DC709 /* SHDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10B7841C27D2A3003DC709 /* SHDownload.m */; };
+		BC10B78B1C27D2A3003DC709 /* SHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10B7861C27D2A3003DC709 /* SHRequest.m */; };
+		BC10B78C1C27D2A3003DC709 /* SHUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC10B7881C27D2A3003DC709 /* SHUpload.m */; };
 		BC7396EB1C240B5000BC2B93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396EA1C240B5000BC2B93 /* main.m */; };
 		BC7396EE1C240B5000BC2B93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396ED1C240B5000BC2B93 /* AppDelegate.m */; };
 		BC7396F11C240B5000BC2B93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7396F01C240B5000BC2B93 /* ViewController.m */; };
@@ -14,10 +18,6 @@
 		BC7396F61C240B5000BC2B93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7396F51C240B5000BC2B93 /* Assets.xcassets */; };
 		BC7396F91C240B5000BC2B93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7396F71C240B5000BC2B93 /* LaunchScreen.storyboard */; };
 		BC7397041C240B5000BC2B93 /* SHNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397031C240B5000BC2B93 /* SHNetworkDemoTests.m */; };
-		BC7397271C240C8300BC2B93 /* SHBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397121C240C8300BC2B93 /* SHBaseRequest.m */; };
-		BC7397281C240C8300BC2B93 /* SHDownload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397141C240C8300BC2B93 /* SHDownload.m */; };
-		BC7397291C240C8300BC2B93 /* SHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397161C240C8300BC2B93 /* SHRequest.m */; };
-		BC73972A1C240C8300BC2B93 /* SHUpload.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397181C240C8300BC2B93 /* SHUpload.m */; };
 		BC73972E1C240C8300BC2B93 /* SHNetworkTask.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397221C240C8300BC2B93 /* SHNetworkTask.m */; };
 		BC73972F1C240C8300BC2B93 /* SHUploadPostData.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397241C240C8300BC2B93 /* SHUploadPostData.m */; };
 		BC7397301C240C8300BC2B93 /* SHNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7397261C240C8300BC2B93 /* SHNetwork.m */; };
@@ -36,6 +36,14 @@
 
 /* Begin PBXFileReference section */
 		0EBF26490FC071FFE3C43524 /* Pods-SHNetworkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SHNetworkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SHNetworkDemo/Pods-SHNetworkDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BC10B7811C27D2A3003DC709 /* SHBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBaseRequest.h; sourceTree = "<group>"; };
+		BC10B7821C27D2A3003DC709 /* SHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseRequest.m; sourceTree = "<group>"; };
+		BC10B7831C27D2A3003DC709 /* SHDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDownload.h; sourceTree = "<group>"; };
+		BC10B7841C27D2A3003DC709 /* SHDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDownload.m; sourceTree = "<group>"; };
+		BC10B7851C27D2A3003DC709 /* SHRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRequest.h; sourceTree = "<group>"; };
+		BC10B7861C27D2A3003DC709 /* SHRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRequest.m; sourceTree = "<group>"; };
+		BC10B7871C27D2A3003DC709 /* SHUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUpload.h; sourceTree = "<group>"; };
+		BC10B7881C27D2A3003DC709 /* SHUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUpload.m; sourceTree = "<group>"; };
 		BC7396E61C240B5000BC2B93 /* SHNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7396EA1C240B5000BC2B93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC7396EC1C240B5000BC2B93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -49,14 +57,6 @@
 		BC7396FF1C240B5000BC2B93 /* SHNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SHNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC7397031C240B5000BC2B93 /* SHNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHNetworkDemoTests.m; sourceTree = "<group>"; };
 		BC7397051C240B5000BC2B93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC7397111C240C8300BC2B93 /* SHBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHBaseRequest.h; sourceTree = "<group>"; };
-		BC7397121C240C8300BC2B93 /* SHBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHBaseRequest.m; sourceTree = "<group>"; };
-		BC7397131C240C8300BC2B93 /* SHDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDownload.h; sourceTree = "<group>"; };
-		BC7397141C240C8300BC2B93 /* SHDownload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDownload.m; sourceTree = "<group>"; };
-		BC7397151C240C8300BC2B93 /* SHRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHRequest.h; sourceTree = "<group>"; };
-		BC7397161C240C8300BC2B93 /* SHRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHRequest.m; sourceTree = "<group>"; };
-		BC7397171C240C8300BC2B93 /* SHUpload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUpload.h; sourceTree = "<group>"; };
-		BC7397181C240C8300BC2B93 /* SHUpload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHUpload.m; sourceTree = "<group>"; };
 		BC7397211C240C8300BC2B93 /* SHNetworkTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHNetworkTask.h; sourceTree = "<group>"; };
 		BC7397221C240C8300BC2B93 /* SHNetworkTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHNetworkTask.m; sourceTree = "<group>"; };
 		BC7397231C240C8300BC2B93 /* SHUploadPostData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHUploadPostData.h; sourceTree = "<group>"; };
@@ -93,6 +93,21 @@
 				F6A95DEA43F7AF1510E724CE /* libPods-SHNetworkDemo.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC10B7801C27D2A3003DC709 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				BC10B7811C27D2A3003DC709 /* SHBaseRequest.h */,
+				BC10B7821C27D2A3003DC709 /* SHBaseRequest.m */,
+				BC10B7831C27D2A3003DC709 /* SHDownload.h */,
+				BC10B7841C27D2A3003DC709 /* SHDownload.m */,
+				BC10B7851C27D2A3003DC709 /* SHRequest.h */,
+				BC10B7861C27D2A3003DC709 /* SHRequest.m */,
+				BC10B7871C27D2A3003DC709 /* SHUpload.h */,
+				BC10B7881C27D2A3003DC709 /* SHUpload.m */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		BC7396DD1C240B5000BC2B93 = {
@@ -155,26 +170,11 @@
 				BC7397251C240C8300BC2B93 /* SHNetwork.h */,
 				BC7397261C240C8300BC2B93 /* SHNetwork.m */,
 				BC7397311C24117F00BC2B93 /* SHNetworkDefinition.h */,
-				BC7397101C240C8300BC2B93 /* CRMRequest */,
+				BC10B7801C27D2A3003DC709 /* Request */,
 				BC7397201C240C8300BC2B93 /* Model */,
 			);
 			name = SHNetwork;
 			path = ../SHNetwork;
-			sourceTree = "<group>";
-		};
-		BC7397101C240C8300BC2B93 /* CRMRequest */ = {
-			isa = PBXGroup;
-			children = (
-				BC7397111C240C8300BC2B93 /* SHBaseRequest.h */,
-				BC7397121C240C8300BC2B93 /* SHBaseRequest.m */,
-				BC7397151C240C8300BC2B93 /* SHRequest.h */,
-				BC7397161C240C8300BC2B93 /* SHRequest.m */,
-				BC7397131C240C8300BC2B93 /* SHDownload.h */,
-				BC7397141C240C8300BC2B93 /* SHDownload.m */,
-				BC7397171C240C8300BC2B93 /* SHUpload.h */,
-				BC7397181C240C8300BC2B93 /* SHUpload.m */,
-			);
-			path = CRMRequest;
 			sourceTree = "<group>";
 		};
 		BC7397201C240C8300BC2B93 /* Model */ = {
@@ -348,14 +348,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC10B78B1C27D2A3003DC709 /* SHRequest.m in Sources */,
 				BC73972E1C240C8300BC2B93 /* SHNetworkTask.m in Sources */,
-				BC7397291C240C8300BC2B93 /* SHRequest.m in Sources */,
+				BC10B7891C27D2A3003DC709 /* SHBaseRequest.m in Sources */,
+				BC10B78C1C27D2A3003DC709 /* SHUpload.m in Sources */,
+				BC10B78A1C27D2A3003DC709 /* SHDownload.m in Sources */,
 				BC7396F11C240B5000BC2B93 /* ViewController.m in Sources */,
 				BC73972F1C240C8300BC2B93 /* SHUploadPostData.m in Sources */,
-				BC73972A1C240C8300BC2B93 /* SHUpload.m in Sources */,
 				BC7397301C240C8300BC2B93 /* SHNetwork.m in Sources */,
-				BC7397271C240C8300BC2B93 /* SHBaseRequest.m in Sources */,
-				BC7397281C240C8300BC2B93 /* SHDownload.m in Sources */,
 				BC7396EE1C240B5000BC2B93 /* AppDelegate.m in Sources */,
 				BC7396EB1C240B5000BC2B93 /* main.m in Sources */,
 			);
